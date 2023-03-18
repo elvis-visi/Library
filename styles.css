@@ -8,3 +8,27 @@
     border:1px solid gray;
     padding: 10px;
 }
+
+/*  center both vertically and horizontall*/
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+  form input {
+    margin-bottom: 10px;
+  }
+  
