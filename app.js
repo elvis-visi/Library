@@ -39,7 +39,7 @@ function addBookToLibrary() {
 }
 
 function displayBooks(){
-    const mainDiv = document.querySelector(".main");
+    const mainDiv = document.querySelector(".gridContainer");
 
     //create a div(card) for each book in the library
     for(let book of myLibrary)

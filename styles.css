@@ -1,0 +1,10 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px; /* sets the gap between grid cells */
+}
+
+.card{
+    border:1px solid gray;
+    padding: 10px;
+}
